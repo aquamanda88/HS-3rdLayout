@@ -1,0 +1,162 @@
+body{
+    font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+}
+ul{
+    list-style: none;
+}
+hr{
+    width: 1108px;
+}
+.container-fliud{
+    min-width: 100%;
+    margin: 0 auto;
+}
+.container{
+    min-width: 100%;
+    margin: 0 auto;
+}
+.row{
+    max-width: 100%;
+}
+.navbar{
+    background: $primary;
+    .brandLogo a{
+        background-image: url(../img/logo.png);
+        display: block;
+        width: 80px;
+        height: 50px;
+        text-indent: 101%;
+        white-space: nowrap;
+        overflow: hidden;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    a{
+        color: #fff;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+.red{
+    background: $primary;
+}
+.footer{
+    color: #fff;
+    width: 1200px;
+    margin: 0 auto;
+    font-weight: lighter;
+    a{
+        color: #fff;
+    }
+    .menubar{
+        padding-top: 36px;
+    }
+    .menuList{
+        line-height: 24px;
+    }
+    .menuList-item{
+        margin-right: 48px;
+    }
+    .menuList-item a, .info a, .copyright a{
+        color: #fff;
+    }
+    hr{
+        border: solid 1px #fff;
+    }
+    .icon-item:hover{
+        opacity: 70%;
+    }
+    .info{
+        img{
+            margin-right: 17px;
+        }
+    }
+    .telNumber, .email{
+        font-size: 36px;
+        line-height: 54px;
+    }
+    .companyList{
+        img{
+            margin-right: 38px;
+        }
+        p{
+            line-height: 24px;
+        }
+    }
+    .PrivacyPolicy{
+        margin-right: 62px;
+    }
+}
+
+@media (max-width: 768px){
+    .footer .menuList-item{
+        margin-right: 40px;
+    }
+    .footer{
+        .telNumber, .email{
+            font-size: 20px;
+            line-height: 30px;
+        }
+        .lawList{
+            font-size: 14px;
+            line-height: 21px;
+        }
+        .PrivacyPolicy{
+            margin-right: 24px;
+        }
+        .info{
+            margin-bottom: 22px;
+        }
+        hr{
+            width: 688px;
+            padding: 0 14px;
+        }
+        .copyright{
+            margin-top: 24px;
+        }
+    }
+}
+@media (max-width: 375px){
+    .navbarMobile{
+        background: $primary;
+        .brandLogo{
+            padding: 10px 0;
+            margin-left: 124px;
+            a{
+                background-image: url(../img/logo-sm.png);
+                display: block;
+                width: 48px;
+                height: 30px;
+                text-indent: 101%;
+                white-space: nowrap;
+                overflow: hidden;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+    .footer .telNumber, .footer .email{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .footer{
+        hr{
+            width: 315px;
+            padding: 0 14px;
+        }
+        .info, .iconList{
+            margin-bottom: 0;
+        }
+        .companyList p{
+            font-size: 14px;
+            line-height: 21px;
+        }
+        .copyright{
+            margin-top: 0;
+        }
+        .companyList p, .lawList a{
+            padding-bottom: 8px;
+        }
+    }
+}

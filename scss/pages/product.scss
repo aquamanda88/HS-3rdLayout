@@ -1,0 +1,29 @@
+.glasses-menuList{
+    width: 403px;
+    height: 103px;
+    border-top: solid 1px #DCDCDC;
+    border-bottom: solid 1px #DCDCDC;
+    border-left: solid 1px #DCDCDC;
+    a{
+        text-decoration: none;
+        img{
+            padding-top: 33px;
+            padding-bottom: 16px;
+        }
+        h3{
+            padding-top: 29px;
+            padding-bottom: 9px;
+        }
+    }
+    h3{
+        font-size: 42px;
+        line-height: 63px;
+        color: #000;
+    }
+}
+.item3{
+    border-right: solid 1px #DCDCDC;
+}
+.selected{
+    background: $primary;
+}
