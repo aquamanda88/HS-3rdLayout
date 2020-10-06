@@ -14202,7 +14202,7 @@ hr {
 }
 
 .bannerPC {
-  background-image: url(../../img/banner.png);
+  background-image: url(../img/banner.png);
   background-size: cover;
   background-position: center center;
   padding: 350px 0;
@@ -14433,7 +14433,7 @@ form .submit {
     line-height: 48px;
   }
   .bannerPad {
-    background-image: url(../../img/banner-md.png);
+    background-image: url(../img/banner-md.png);
     background-size: cover;
     background-position: center center;
     padding: 372px 0;
@@ -14548,7 +14548,7 @@ form .submit {
     font-weight: bold;
   }
   .header .bannerMobile {
-    background-image: url(../../img/banner-sm.png);
+    background-image: url(../img/banner-sm.png);
     background-size: cover;
     background-position: center center;
     padding: 163px 0;
