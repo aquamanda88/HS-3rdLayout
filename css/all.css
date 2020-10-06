@@ -14033,12 +14033,12 @@ hr {
 }
 
 .container-fliud {
-  min-width: 100%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
 .container {
-  min-width: 100%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -14433,7 +14433,7 @@ form .submit {
     line-height: 48px;
   }
   .bannerPad {
-    background-image: url(../img/banner-md.png);
+    background-image: url(../../img/banner-md.png);
     background-size: cover;
     background-position: center center;
     padding: 372px 0;
@@ -14548,7 +14548,7 @@ form .submit {
     font-weight: bold;
   }
   .header .bannerMobile {
-    background-image: url(../img/banner-sm.png);
+    background-image: url(../../img/banner-sm.png);
     background-size: cover;
     background-position: center center;
     padding: 163px 0;
