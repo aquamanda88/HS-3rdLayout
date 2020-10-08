@@ -8,11 +8,11 @@ hr{
     width: 1108px;
 }
 .container-fliud{
-    min-width: 100%;
+    max-width: 100%;
     margin: 0 auto;
 }
 .container{
-    min-width: 100%;
+    max-width: 100%;
     margin: 0 auto;
 }
 .row{
@@ -43,7 +43,7 @@ hr{
 }
 .footer{
     color: #fff;
-    width: 1200px;
+    width: 1210px;
     margin: 0 auto;
     font-weight: lighter;
     a{
@@ -56,13 +56,16 @@ hr{
         line-height: 24px;
     }
     .menuList-item{
-        margin-right: 48px;
+        a{
+            padding: 24px;
+        }
     }
     .menuList-item a, .info a, .copyright a{
         color: #fff;
     }
-    hr{
-        border: solid 1px #fff;
+    .contact{
+        max-width: 1210px;
+        border-bottom: solid 1px #fff;
     }
     .icon-item:hover{
         opacity: 70%;
@@ -71,6 +74,9 @@ hr{
         img{
             margin-right: 17px;
         }
+    }
+    .copyright{
+        width: 100%;
     }
     .telNumber, .email{
         font-size: 36px;
