@@ -1,19 +1,19 @@
-.glasses-menuList{
+.selected{
+    background: $primary;
+}
+.invisible{
+    background: #fff;
+}
+.footer{
+    font-weight: lighter;
+}
+
+.item-optical, .item-sunglasses, .item-functional{
     width: 403px;
-    height: 103px;
     border-top: solid 1px #DCDCDC;
-    border-bottom: solid 1px #DCDCDC;
     border-left: solid 1px #DCDCDC;
     a{
         text-decoration: none;
-        img{
-            padding-top: 33px;
-            padding-bottom: 16px;
-        }
-        h3{
-            padding-top: 29px;
-            padding-bottom: 9px;
-        }
     }
     h3{
         font-size: 42px;
@@ -21,9 +21,107 @@
         color: #000;
     }
 }
-.item3{
-    border-right: solid 1px #DCDCDC;
+.red-line{
+    border-bottom: solid 1px $primary;
 }
-.selected{
-    background: $primary;
+.item-sunglasses, .item-functional{
+    border-bottom: solid 1px transparent;
+}
+
+.item-optical{
+    img{
+        padding: 33px 0;
+    }
+    h3{
+        padding: 24px 0;
+    }
+}
+.item-functional{
+    border-right: solid 1px #DCDCDC;
+    img{
+        padding-top: 28px;
+        padding-bottom: 27px;
+    }
+    h3{
+        padding: 24px 0;
+    }
+}
+.content{
+    padding-top: 88px;
+    padding-bottom: 156px;
+    .optical-productText{
+        margin-bottom: 48px;
+    }
+    .optical-productItem{
+        width: 255px;
+        padding-bottom: 104px;
+        img{
+            width: 255px;
+            height: 164px;
+        }
+        .optical-productNum, .optical-productPrice{
+            font-size: 24px;
+            line-height: 36px;
+        }
+        .optical-productPrice{
+            color: $primary;
+        }
+        .optical-colorBlock-pri, .optical-colorBlock-sec{
+            width: 24px;
+            height: 24px;
+            border-radius: 4px;
+            opacity: 1;
+        }
+        .optical-colorBlock-pri{
+            background-color: $section1;
+        }
+        .optical-colorBlock-sec{
+            background-color: $section2;
+        }
+    }
+}
+
+.pageBar{
+    padding-top: 10px;
+    a{
+        border: solid 1px $hardColor;
+        text-decoration: none;
+    }
+    .pre-page, .next-page, .page-num{
+        color: $hardColor;
+    }
+    .pre-page, .next-page{
+        font-size: 19px;
+        line-height: 29px;
+    }
+    .pre-page{
+        padding: 11px 15px 12px 9px;
+    }
+    .next-page{
+        padding: 11px 14px 12px 10px;
+        background: $softColor;
+    }
+    .page-num{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .page-hover:hover{
+        background: $light;
+    }
+    .num-1, .num-2{
+        padding: 10px 17px 14px 14px;
+    }
+    .active{
+        background: #000;
+        color: #fff;
+    }
+    .num-3, .num-4{
+        padding: 10px 16px 14px 15px;
+    }
+    .num-5{
+        padding: 10px 16px 14px 16px;
+    }
+    .clearl-pr{
+        border-right: transparent;
+    }
 }

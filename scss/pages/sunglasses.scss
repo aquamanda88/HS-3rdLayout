@@ -1,0 +1,75 @@
+.selected{
+    background: $primary;
+}
+.item-optical, .item-functional{
+    border-bottom: solid 1px transparent;
+}
+.red-line{
+    border-bottom: solid 1px $primary;
+}
+.item-optical{
+    img{
+        padding-top: 33px;
+        padding-bottom: 16px;
+    }
+    h3{
+        padding-top: 24px;
+        padding-bottom: 8px;
+    }
+}
+
+.item-sunglasses{
+    img{
+        padding-top: 28px;
+        padding-bottom: 11px;
+    }
+    h3{
+        padding-top: 24px;
+        padding-bottom: 8px;
+    }
+}
+.item-functional{
+    border-right: solid 1px #DCDCDC;
+    img{
+        padding-top: 28px;
+        padding-bottom: 27px;
+    }
+    h3{
+        padding: 24px 0;
+    }
+}
+.pb-104{
+    padding-bottom: 104px;
+}
+.content{
+    padding-top: 88px;
+    padding-bottom: 304px;
+    .sunglasses-productText{
+        margin-bottom: 48px;
+    }
+    .sunglasses-productItem{
+        img{
+            width: 350px;
+            height: 224px;
+        }
+        .sunglasses-productNum, .sunglasses-productPrice{
+            font-size: 24px;
+            line-height: 40px;
+        }
+        .sunglasses-productPrice{
+            color: $primary;
+        }
+        .sunglasses-colorBlock-pri, .sunglasses-colorBlock-sec{
+            width: 24px;
+            height: 24px;
+            border-radius: 4px;
+            opacity: 1;
+        }
+        .sunglasses-colorBlock-pri{
+            background-color: $section1;
+        }
+        .sunglasses-colorBlock-sec{
+            background-color: $section2;
+        }
+    }
+}
